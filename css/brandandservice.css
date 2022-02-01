@@ -339,7 +339,8 @@ header .search-bar-container label:hover {
   section {
     padding: 1rem 2rem;
   }
-  p{
+
+  p {
     font-size: 1.2rem;
   }
 
@@ -359,19 +360,23 @@ header .search-bar-container label:hover {
   h6 {
     margin-bottom: 1rem;
   }
-  .gallery-wrapper .box-container a .box{
+
+  .gallery-wrapper .box-container a .box {
     box-shadow: none;
-  
-  }
-  .services .box-container a {
-    box-shadow:none;
 
   }
+
+  .services .box-container a {
+    box-shadow: none;
+
+  }
+
   .image-stack__item--top {
     padding-top: 40px;
     padding-left: 60px;
   }
-  .no-column-bottom .two-columns{
+
+  .no-column-bottom .two-columns {
     margin-bottom: 0px;
   }
 
@@ -383,13 +388,16 @@ header .search-bar-container label:hover {
   #menu-bar {
     display: initial;
   }
-  .contact-container{
+
+  .contact-container {
     padding: 10px 0px;
   }
-  .form{
+
+  .form {
     box-shadow: none;
-    
+
   }
+
   .input {
     padding: 1.5rem 1.2rem;
   }
@@ -417,10 +425,12 @@ header .search-bar-container label:hover {
     background: #222;
   }
 
+  .telecom .box-container .box {
+    margin-bottom: 20px;
+  }
 
   .box-container .box {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
   }
 
   .fas {
@@ -443,39 +453,47 @@ header .search-bar-container label:hover {
     margin-bottom: 0px;
 
   }
-  .projects .two-rows{
+
+  .projects .two-rows {
     display: flex;
     flex-direction: row;
     column-gap: 5px;
     align-items: left;
   }
+
   .projects .two-rows .two-columns img {
     width: 100%;
     object-fit: cover;
-}
-  .gallery-images{
+  }
+
+  .gallery-images {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .gallery-images a{
-    width:100%
+
+  .gallery-images a {
+    width: 100%
   }
-  .gallery-images a img{
-    width:100%
+
+  .gallery-images a img {
+    width: 100%
   }
-  .footer-wrapper{
-    margin:0px;
+
+  .footer-wrapper {
+    margin: 0px;
   }
+
   .banner-career {
     height: 250px;
     overflow: hidden;
   }
+
   .banner-career img {
     height: 250px;
     width: 100%;
   }
- 
+
 
 
 }
