@@ -40,11 +40,7 @@
     font-weight: 900;
   }
 
-  p {
-    font-size: 1.5em;
-  }
 }
-
 @media (min-width: 1500px) {
 
   h1 {
@@ -62,9 +58,7 @@
     font-weight: 900;
   }
 
-  p {
-    font-size: 1.3333em;
-  }
+ 
 }
 
 @media (max-width:920px) {
