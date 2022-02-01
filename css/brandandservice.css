@@ -425,12 +425,10 @@ header .search-bar-container label:hover {
     background: #222;
   }
 
-  .telecom .box-container .box {
-    margin-bottom: 20px;
-  }
 
   .box-container .box {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
   }
 
   .fas {
