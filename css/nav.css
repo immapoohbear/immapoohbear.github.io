@@ -385,22 +385,14 @@ nav .navbar .links li:hover .js-sub-menu {
   flex-direction: row;
 
 }
+.two-columns img{
+  width:100%;
+}
 /* .two-columns p {
   padding-left: 20px;
 }
  */
- #pic-wrapper{
-  width:50%;
- 
- 
- }
 
- #pic-wrapper img{
-  height:100%;
-  width:auto;
- 
-
- }
 .planning .two-rows{
   column-gap:50px;
 }
