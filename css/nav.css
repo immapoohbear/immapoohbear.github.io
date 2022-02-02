@@ -586,6 +586,7 @@ form {
   letter-spacing: 0.5px;
   border-radius: 10px;
   transition: 0.3s;
+  margin-bottom: 20px;
 }
 
 textarea.input {
