@@ -385,25 +385,22 @@ nav .navbar .links li:hover .js-sub-menu {
   flex-direction: row;
 
 }
-.our-values .two-columns{
-  width:100%;
-}
 /* .two-columns p {
   padding-left: 20px;
 }
  */
  #pic-wrapper{
   width:100%;
-}
-
-#pic-wrapper img{
- height:auto;
- width: 100%;
-}
-
-
-
  
+ 
+ }
+
+ #pic-wrapper img{
+  height:100%;
+  width:auto;
+ 
+
+ }
 .planning .two-rows{
   column-gap:50px;
 }
@@ -858,6 +855,9 @@ textarea.input {
   width: 1em;
 
 } */
+.our-values .two-columns{
+  width:100%;
+}
 
 .image-stack {
   position: relative;
