@@ -65,6 +65,9 @@
     font-size: 1.4em;
     line-height: 1.6;
   }
+  section {
+    padding: 1rem 3rem;
+  }
 }
 
 @media (max-width:920px) {
