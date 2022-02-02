@@ -389,10 +389,16 @@ nav .navbar .links li:hover .js-sub-menu {
   padding-left: 20px;
 }
  */
- .two-columns img{
-  height: auto;
+ #pic-wrapper{
+  
   width: 100%;
  }
+ #pic-wrapper img{
+  height:auto 
+  width: 100%;
+ }
+
+
  
 .planning .two-rows{
   column-gap:50px;
