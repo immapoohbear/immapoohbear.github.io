@@ -45,8 +45,9 @@
   nav .navbar .links li a {
 
     font-size: 18px;
-
-  
+  }
+  .navbar .links li .sub-menu a {
+    font-size: 18px;
   }
   .navbar .logo a img {
     height: 60px;
@@ -82,6 +83,9 @@
     font-size: 20px;
 
   
+  }
+  .navbar .links li .sub-menu a {
+    font-size: 20px;
   }
   .navbar .logo a img {
     height: 70px;
