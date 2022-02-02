@@ -48,6 +48,9 @@
 
   
   }
+  .navbar .logo a img {
+    height: 60px;
+  }
 
 }
 @media (min-width: 1500px) {
@@ -79,6 +82,9 @@
     font-size: 20px;
 
   
+  }
+  .navbar .logo a img {
+    height: 70px;
   }
 }
 
