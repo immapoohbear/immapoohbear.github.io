@@ -390,7 +390,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
  */
  #pic-wrapper{
-  width:100%;
+  width:50%;
  
  
  }
@@ -855,8 +855,8 @@ textarea.input {
   width: 1em;
 
 } */
-.our-values .two-columns{
-  width:100%;
+.our-values .two-columns{ 
+   width:50%;
 }
 
 .image-stack {
