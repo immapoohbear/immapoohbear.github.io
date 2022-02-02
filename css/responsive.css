@@ -114,6 +114,19 @@
   nav .navbar .links li a {
     font-size: 15px;
   }
+  #whyus-id-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whyus-card{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .whyus-card img{
+    width:100%
+  }
+
 }
 
 @media (max-width:800px) {
