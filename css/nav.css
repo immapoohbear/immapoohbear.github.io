@@ -389,12 +389,9 @@ nav .navbar .links li:hover .js-sub-menu {
   padding-left: 20px;
 }
  */
- #pic-wrapper{
-  
-  width: 100%;
- }
+
  #pic-wrapper img{
-  height:auto 
+  height:auto ;
   width: 100%;
  }
 
