@@ -180,6 +180,7 @@ nav .navbar .links li a {
 nav .navbar .links li .arrow {
   height: 100%;
   width: 22px;
+  font-size: 20px;
   line-height: 70px;
   text-align: center;
   display: inline-block;
@@ -389,8 +390,10 @@ nav .navbar .links li:hover .js-sub-menu {
 }
  */
  .two-columns img{
-   width:100%;
+  height: auto;
+  width: 100%;
  }
+ 
 .planning .two-rows{
   column-gap:50px;
 }
@@ -887,8 +890,6 @@ textarea.input {
 }
 .our-values ul{
   list-style-position: inside;
-  
-
 }
 
 .our-values ul li{
@@ -1029,7 +1030,7 @@ footer{
 .footer-column ul li a {
   text-decoration: none;
   color:white;
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight:200;
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif !important;
@@ -1037,8 +1038,8 @@ footer{
 .footer-wrapper a{
   text-decoration: none;
   color:white;
-  font-size: 16px;
   font-weight:200;
+  font-size: 1.2rem;
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif !important;
 }
