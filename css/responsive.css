@@ -52,6 +52,7 @@
   .navbar .logo a img {
     height: 60px;
   }
+  
 
 }
 @media (min-width: 1500px) {
@@ -93,6 +94,19 @@
   }
   .navbar .logo a img {
     height: 70px;
+  }
+  .whyus-card {
+    height: 350px;
+    width: 350px;
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  .whyus-card img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
   }
 }
 

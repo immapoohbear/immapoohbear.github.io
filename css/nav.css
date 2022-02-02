@@ -743,6 +743,8 @@ textarea.input {
 #whyus-id-card{
   display: flex;
   justify-content: center;
+  column-count: 3;
+  justify-content: space-between;
 
 }
  .whyus-card {
