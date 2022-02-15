@@ -340,6 +340,12 @@ nav .navbar .links li:hover .js-sub-menu {
   color: white;
 }
 
+.client-img-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .carousel .card {
   color: #fff;
   text-align: center;
