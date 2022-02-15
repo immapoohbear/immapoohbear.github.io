@@ -63,7 +63,7 @@ h6 {
 }
 
 h1 {
-  font-size: 1.7rem !important;
+  font-size: 30px !important;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700;
   line-height: 26px;
@@ -71,14 +71,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5125rem !important;
+  font-size: 26px !important;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700;
   line-height: 26px;
 }
 
 h3 {
-  font-size: 1.4rem !important;
+  font-size: 22px !important;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 500;
   line-height: 24px;
@@ -87,9 +87,9 @@ h3 {
 
 
 p {
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 450;
-  line-height: 22px;
+  line-height: 1.6;
   margin-bottom: 20px;
 }
 p:last-child{
@@ -266,7 +266,8 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .inner-container a{
   color: #61BF5E;
-  font-size: 1.2rem;
+  font-size: 18px;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -291,7 +292,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
  .box-container a .box i{
   padding:1rem;
-  font-size: 2rem;
+  font-size:35px;
   color:var(--orange);
 }
 .box-container  .box i {

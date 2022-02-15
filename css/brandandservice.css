@@ -337,10 +337,6 @@ header .search-bar-container label:hover {
   }
 
   p {
-    font-size: 1.2rem;
-  }
-
-  p {
     margin-bottom: 1rem;
   }
 
@@ -427,14 +423,7 @@ header .search-bar-container label:hover {
     margin-bottom: 20px;
   }
 
-  .fas {
-    font-family: "Font Awesome 5 Pro";
-    font-weight: 900;
-    font-size: 1.2rem;
-    color: #61BF5E;
-    padding-top: 1rem;
-
-  }
+ 
 
   .two-rows-mob .two-rows {
     display: flex;
