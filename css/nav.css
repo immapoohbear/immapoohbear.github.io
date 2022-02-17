@@ -51,35 +51,36 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Montserrat", sans-serif ;
   font-weight: 500;
   font-weight: 400;
   color: #61BF5E;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 2px;
-
+ 
   margin-bottom: 20px;
 }
 
 h1 {
-  font-size: 30px !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-size: 30px ;
+  font-family: "Montserrat", sans-serif ;
   font-weight: 700;
   line-height: 26px;
+  text-align: center;
 
 }
 
 h2 {
-  font-size: 26px !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-size: 26px ;
+  font-family: "Montserrat", sans-serif ;
   font-weight: 700;
   line-height: 26px;
 }
 
 h3 {
-  font-size: 22px !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-size: 22px ;
+  font-family: "Montserrat", sans-serif ;
   font-weight: 500;
   line-height: 24px;
 
@@ -87,7 +88,7 @@ h3 {
 
 
 p {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 450;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -104,7 +105,8 @@ article {
 ul li {
 
   font-family: "Montserrat", sans-serif !important;
-
+  font-size: 18px;
+  font-weight: 450;
 }
 hr {
   width: 150px;
@@ -170,9 +172,9 @@ nav .navbar .links li a {
   height: 100%;
   text-decoration: none;
   white-space: nowrap;
-  color: #61BF5E;
+  color: black !important;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
 
 }
 
@@ -188,7 +190,7 @@ nav .navbar .links li .arrow {
   line-height: 70px;
   text-align: center;
   display: inline-block;
-  color: #61BF5E;
+  color: #000000;
   transition: all 0.3s ease;
 }
 
@@ -216,7 +218,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .navbar .links li .sub-menu a {
-  color: #61BF5E;
+  color: black;
 
   font-size: 15px;
   font-weight: 500;
@@ -911,7 +913,7 @@ textarea.input {
 font-weight: 450;
 font-size: 18px;
   font-family: "Montserrat", sans-serif !important;
-  line-height: 1.6;
+
 }
 /* .our-values ul li::before {
   content: "\2022";
@@ -1123,4 +1125,35 @@ footer{
 
 .text-color{
   color: #1c303c;
+}
+.employee figure{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.employee{
+  margin-bottom: 20px;
+}
+.employee figure img{
+
+  height:30%;
+  border-radius: 20px;
+ box-shadow: 0 0.3rem 0.5rem #1c303c;
+ margin-bottom: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.employee h3{
+
+  letter-spacing: 0px;
+  text-align: center;
+}
+.employee p{
+  color:#1c303c;
+  font:16px;
+  text-align: center;
 }

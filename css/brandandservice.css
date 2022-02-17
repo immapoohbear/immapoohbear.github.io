@@ -439,13 +439,22 @@ header .search-bar-container label:hover {
 
   .projects .two-rows {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     column-gap: 5px;
     align-items: left;
   }
+  .projects .two-rows .two-columns{
+    width:100%
+  }
+  .projects .two-rows .two-columns figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .projects .two-rows .two-columns img {
-    width: 100%;
+    
     object-fit: cover;
   }
 
@@ -496,3 +505,5 @@ header .search-bar-container label:hover {
   }
 
 }
+
+

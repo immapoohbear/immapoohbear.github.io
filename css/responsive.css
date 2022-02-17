@@ -170,6 +170,14 @@
 
 @media (max-width:800px) {
 
+    h2 {
+      font-size: 24px ;
+ 
+      font-weight: 700;
+      line-height: 26px;
+  }
+  
+
   
 
   .contact-container {
@@ -219,6 +227,11 @@
   .our-values .two-columns {
     width: 100%;
   }
+  .employee figure img{
+
+   height:250px;
+  
+  }
 
   .image-stack__item--top {
     padding-bottom: 60px;
@@ -250,6 +263,11 @@
     justify-content: center;
 
   }
+  .employee figure img{
+    width:250px;
+    height:250px;
+   
+   }
  
 
   .two-columns {
