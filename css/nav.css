@@ -1088,7 +1088,7 @@ footer{
 }
 .projects .two-rows .two-columns ul li{
   list-style: none;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Montserrat", sans-serif ;
 }
 .meet-team .two-rows .two-columns p {
   padding-left: 0px;

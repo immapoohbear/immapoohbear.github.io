@@ -169,15 +169,60 @@
 }
 
 @media (max-width:800px) {
+  h1 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
 
     h2 {
-      font-size: 24px ;
+      font-size: 16px ;
  
       font-weight: 700;
       line-height: 26px;
   }
-  
+  h3{
+    font-size: 14px;
+  }
 
+  p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .our-values ul li {
+    list-style: disc;
+    margin: 1em 0;
+    list-style-position: inside;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif !important;
+}
+ul li {
+  font-size:12px;
+  font-weight: 300;
+}
+  .box-container a .box{
+    box-shadow: 0 4px 8px 0 rgba(180, 180, 180, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.19);
+}
+.telecom .box-container .box {
+  box-shadow: 0 4px 8px 0 rgba(180, 180, 180, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.19);
+}
+.box-container a .box p {
+  padding:15px;
+}
+.employee figure img {
+  
+  box-shadow: 0 4px 8px 0 rgba(180, 180, 180, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.19);
+ 
+}
+
+.box-container  .box p {
+  padding:15px;
+}
   
 
   .contact-container {
@@ -431,7 +476,7 @@
   .sidebar-logo i,
   .navbar .bx-menu {
     font-size: 30px;
-    color: #61BF5E;
+    color: #000000;
   }
 
   nav .navbar .links {
@@ -496,14 +541,11 @@
     display: none;
   }
 
-  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
-  .navbar .nav-links.show3 .links .js-sub-menu,
-  .navbar .nav-links.show2 .links .more .more-sub-menu {
+  .navbar .nav-links.show1 .links .htmlCss-sub-menu{
     display: block;
   }
 
-  .navbar .nav-links.show1 .links .htmlcss-arrow,
-  .navbar .nav-links.show3 .links .js-arrow {
+  .navbar .nav-links.show1 .links .htmlcss-arrow i{
     transform: rotate(180deg);
   }
 
